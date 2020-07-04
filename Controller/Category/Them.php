@@ -12,7 +12,7 @@
 			{	
 				$ret=$category->InsertCategory($sl+1,$TenLoai,$Mota);
 				if($ret>0)
-					echo "<script>window.location ='admin.php?mod=Category&act=Them'</script>";
+					echo "<script>window.location ='index.php?mod=Category&act=Them'</script>";
 				else
 					echo "<p class=\"error\">Thêm bị lỗi</p>";
 			}
