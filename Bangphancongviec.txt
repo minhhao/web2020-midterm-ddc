@@ -3,3 +3,5 @@
 - thêm mới hàng hóa vào database
 - thêm mới loại vào database
 - thêm mới khách hàng vào database
+2 Hà Minh Duy 44.01.104.068
+-tra cứu mã hóa đơn
