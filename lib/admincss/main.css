@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0px; padding:0px;}
+body{background:url(images/apple-pink-wallpaper-14445.jpg); max-width:1000%; max-height:1000px;}
+.wrap{max-width:1200px;min-width:1000px;width:100%; height:1000px; background:#F8F8F8; margin: 0px auto;}
+a{text-decoration:none; color:#FFF; font-size:15px;}
+.menu{background:#00A69B;width:1200px;margin:0;padding:0;display:table; }
+.menu>ul>li{ display:table-cell;width:200px;padding:5px 0 3px;color:#000;background:#00A69B;
+font-size:12px;text-align:center;text-transform:uppercase;position:relative; text-decoration:none; 
+font-family:"Segoe UI Light";font-weight:bolder;border-right:1px dotted #CCCCCC;}
+.icon{background-repeat:no-repeat;display:inline-block;height:30px;width:30px;line-height:30px;vertical-align:middle}
+.menu>ul>li:hover{background:#35FFFF;transition:all 0.50s;}
+#noidung{width:1200px; float:left; margin-top:10px; margin-right:10px;
+background-color:#EAEAEA; min-height:555x;}
+footer{background:#CCC; color:#FFF; height:90px;text-align:center; clear:both; margin:5px 0 0 0; padding:10px 0 0 0;font-family:"Segoe UI Light";}
+.content-right{
+	margin-left:220px;}
+.content-left{
+	float:left;	}
+.button{
+	width:80px; 
+	background-image:url(../images/button-o.gif); 
+	border:0; 
+	font:Tahoma; 
+	color:#FFFFFF;
+	height:26px;
+}
+
+.menuright:hover {color:#F33}
+.listmenu>ul>li>ul{display:none; background:#0C0;}
+.listmenu>ul>li:hover ul{display:block;}
+.listmenu>ul>li>ul>li:hover{background:#99C;transition:all 0.50s;}

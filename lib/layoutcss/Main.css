@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+ 
+*{margin:0px; padding:0px;}
+body{background:url(../../images/apple-pink-wallpaper-14445.jpg); max-width:1000%; max-height:1000px;}
+.clear{clear:both;}
+.wrap{max-width:1200px;min-width:1000px;width:1200; height:auto; max-height:3000px; background:#F3F3F3; margin: 0px auto; }
+ 
+a{text-decoration:none; color:#FFF; font-size:15px;}
+.menu{background:#00A69B;width:800px;margin:0;padding:0;display:table; }
+.menu>ul>li{display:table-cell;width:100px;padding:5px 0 3px;color:#000;background:#00A69B;
+font-size:12px;text-align:center;text-transform:uppercase;position:relative; text-decoration:none; 
+font-family:"Segoe UI Light";font-weight:bolder;border-right:1px dotted #CCCCCC;}
+.menu>ul>li.mobile{width:100px}
+.menu>ul>li.tablet{width:100px}
+.menu>ul>li.laptop{width:100px}
+.menu>ul>li.phukien{width:100px}
+.menu>ul>li.simcard{width:100px}
+.menu>ul>li.ask{width:100px}
+.menu>ul>li.news{width:100px}
+.menu>ul>li.gameapp{width:100px}
+[class^="icon-"],[class*="icon-"]{background-image:url(../../images/icon1.png);background-repeat:no-repeat;display:inline-block;height:30px;width:30px;line-height:30px;vertical-align:middle}
+.icon-mobile{background-position:0px 0;width:24px;height:25px;display:block;margin:2px auto 3px}
+.icon-tablet{background-position:-24px 0;display:block;margin:0 auto 5px;width:32px;height:22px}
+.icon-laptop{background-position:-60px 0;display:block;margin:0 auto 5px;width:39px;height:21px}
+.icon-phukien{background-image:url(../../images/View%20Details-50.png) ;display:block;margin:0 auto 5px;width:24px;height:24px}
+.icon-simcard{background-image:url(../../images/Search-48.png);display:block;margin:5px auto 5px;width:24px;height:24px}
+.icon-news{background-position:-169px 0;display:block;margin:0 auto 2px;width:29px;height:24px}
+.icon-ask{background-position:-200px 0;display:block;margin:0 auto 3px;width:25px;height:25px}
+.icon-dichvu{background-image:url(../../images/dichvu.png);display:block;margin:0 auto 5px;height:24px;width:24px}
+.icon-gameapp{background-image:url(../../images/Contacts-64.png);display:block;margin:0 auto 5px;height:24px;width:24px}
+.topinput{float:left;width:162px;margin-left:8px;padding-top:3px;border:0;position:relative;background:#fff;height:30px;text-indent:10px;font-size:13px;}
+.btntop{float:right;width:40px;height:35px;border:0;background:url(../../images/Very-Basic-Search-icon.png); height:35px;width:35px; vertical-align:central;}
+#search-logo{float:left;height:40px; width:118px;display:block;margin:12px auto 0;margin-left:10px}
+#search-site{float:left;width:260px;height:35px;margin:10px 10px 0 0;background:#fff;position:relative;border-radius:4px;}
+ 
+.menu>ul>li>ul{display:none; position:absolute; background:#00A429; top:59px; width:200px; left:0px; border-top:5px solid #35FFFF; z-index:100; }
+.menu>ul>li:hover ul{display:block;}
+.menu>ul>li>ul>li:hover{background:#4FFFA7;transition:all 0.50s;}
+.menu>ul li:hover{background:#35FFFF;transition:all 0.50s;}
+.menu>ul>li>ul>li{padding:5px 10px;border-top:1px dotted #ACACAC;text-align:justify; text-decoration:none; font-family:"Segoe UI Light";display:block;}
+ 
+.news{width:350px;margin-top:10px;overflow:hidden}
+.news figure{display:block;overflow:hidden;border-bottom:3px solid #00A69B;background:#F8F8F8;}
+.news h2{float:left;padding:12px 20px 8px;background:#00A69B;font-size:13px;color:#FFF; font-family:"Segoe UI Light";text-transform:uppercase;text-align:center;}
+.news figure b{float:left;width:0;height:0;border-left:0 solid transparent;border-right:20px solid transparent;border-bottom:36px solid #9FF;}
+.news figure a{float:right;padding:3px 15px; color:#00A69B; font-family:"Segoe UI Light";background:#E6E6E6;border-radius:2px;font-size:11px;text-transform:uppercase;margin-top:8px}
+.news figure a:hover{background: #00A69B; color:#FFF;}
+.news ul{display:block;overflow:hidden;}
+.news li{display:block;padding:9px 10px;border-bottom:1px solid #EDEDED;background:#FFF;}
+.news li img{float:right;width:auto;height:54px;margin-left:10px;}
+.news li a{display:block;overflow:hidden;}
+.news li h3{display:block;font-size:14px;color:#000; font-family:"Segoe UI Light";margin-bottom:5px;}
+.news li h3:hover{color:#288AD6}
+ 
+#noidung{width:840px; float:left; margin-top:10px; margin-right:10px;
+background-color:#F3F3F3; min-height:800px;}
+#chitiet{text-align:justify; padding:15px 5px 5px 5px;}
+ 
+footer{background:#CCC; color:#FFF; height:90px;text-align:center; clear:both; margin:5px 0 0 0; padding:10px 0 0 0;font-family:"Segoe UI Light";}
+ 
+.status{float:right;  width:900px; font-size:18px;}
+.status ul{padding-right:10px; float:right; }
+.status ul li{display:inline-block;}
+.status ul li a{text-decoration:none; color:white; padding:5px 5px 5px 20px;}
+.status ul li a:hover{color:#3C6; font-weight:bolder;}
+
+#lienhea
+{ 
+  height:30px; width:240px; text-align:center;
+  display: block;  
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.5); /*Đổ bóng cho menu*/
+  position: fixed; /*Cho menu cố định 1 vị trí với top và left*/
+  bottom: 0; /*Nằm trên cùng*/
+  right: 0; /*Nằm sát bên trái*/
+  z-index:100; 
+  }
