@@ -1,0 +1,5 @@
+1. Nguyễn Minh Hảo- 42.01.104.223 
+- Xây dựng database 
+- thêm mới hàng hóa vào database
+- thêm mới loại vào database
+- thêm mới khách hàng vào database
